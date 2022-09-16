@@ -1,0 +1,82 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  background: linear-gradient(90deg, #d30f0f 1.18%, #ff0037 100%);
+  color: white;
+  padding: 20px;
+}
+
+.title-container {
+  /*logo and "PREMIERE" heading*/
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.title-container > h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.logo-img__container {
+  width: 45px;
+  height: 45px;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+
+.link-container {
+  /*home/featured/genres/starred*/
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ul > li {
+  display: inline;
+  margin-right: 40px;
+}
+
+li > a {
+  transition: border-bottom 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+li > a:hover {
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+}
+
+.icon-container {
+  /*search & account icons*/
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-right: 10px;
+}
+
+ion-icon {
+  font-size: 24px;
+}/*# sourceMappingURL=main.css.map */
